@@ -134,10 +134,6 @@ void testVisionProcessor(){
             managers[i]->updateStatus( frameData );
         }
 
-        //hands.clear();
-
-
-
         acumSec+=duration;
         nframes++;
 
@@ -147,10 +143,6 @@ void testVisionProcessor(){
             nframes=0;
             acumSec=0;
         }
-
-
-
-
 
         if( verboseVideo ){
 
